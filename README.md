@@ -13,12 +13,12 @@ Before proceeding, ensure that:
 
 #### Using `wget`:
 ```bash
-wget https://raw.githubusercontent.com/Semutireng22/kali/main/install.sh
+wget -qO- https://raw.githubusercontent.com/Semutireng22/kali/main/install.sh | bash
 ```
 
 #### Using `curl`:
 ```bash
-curl -o install.sh https://raw.githubusercontent.com/Semutireng22/kali/main/install.sh
+curl -fsSL https://raw.githubusercontent.com/Semutireng22/kali/main/install.sh | bash
 ```
 
 ### Step 3: Make the Script Executable
